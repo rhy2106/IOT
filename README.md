@@ -9,9 +9,18 @@ arduino-cli board list
 
 ```
 ## Como Compilar mandar o codigo para o arduino
+O makefile está programado para apenas realizar ações com o ultimo codigo modificado.
+- Para ver as configurações de como o codigo será compilado:
 ```
-arduino-cli compile --fqbn arduino:avr:uno servomotor
-arduino-cli upload -p /dev/ttyUSB0 --fqbn arduino:avr:uno servomotor
+make
+```
+- Para compilar o ultimo codigo modificado:
+```
+make compile
+```
+-  Para mandar o codigo para o arduino:
+```
+make upload
 ```
 
 ## Como Listar e Baixar Bibliotecas
