@@ -6,7 +6,6 @@ Repositorio para guardar e anotar como utilizar um arduino
 ## Como Listar o Arduino Conectado no seu computador:
 ```
 arduino-cli board list
-
 ```
 ## Como Compilar mandar o codigo para o arduino
 O makefile está programado para apenas realizar ações com o ultimo codigo modificado.
